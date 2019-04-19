@@ -1,0 +1,127 @@
+body {	
+	color: #fff;
+	font-family: "Montserrat";
+}
+
+h1 {	
+	font-size: 3.5rem;
+	line-height: 1.5;
+	padding: 2% 10%;
+}
+
+h2 {
+	font-family: "Pattaya";
+	font-size: 2.5rem;
+	line-height: 1.5;
+	padding: 0 7%;
+}
+
+/*Title*/
+#title {
+	background-color: #f3a333;
+}
+
+.container-fluid {
+	padding: 10% 15%;
+}
+
+/*Navigation Bar*/
+#title .navbar-brand {
+	color: #cd4545;
+	font-family: "Pattaya";
+	font-size: 2.5rem;
+}
+
+.navbar.scrolled {
+    background: #ffcd60;
+    transition: background 1000ms;
+}
+
+.nav-item {
+	padding: 0 18px;
+}
+
+.nav-link {
+	font-size: 1.2rem;
+}
+
+#title .nav-link:hover {
+	color: #cd4545;
+}
+
+/*Title-image*/
+.cupcake {
+	padding: 3% 10%;
+}
+
+/*About*/
+.angie {
+	font-family: "Pattaya";
+	font-size: 1.2rem;
+}
+
+#about {
+	background-image: url("https://images.unsplash.com/photo-1519869325930-281384150729?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=747&q=80");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #f3a333;	
+	text-align: center;
+	/*z-index: 1;*/
+}
+
+.box {
+	background-color: #fffe9a;	
+	opacity: .8;
+	padding: 8% 10%;
+	/*z-index: 0;*/
+}
+
+/*Products*/
+#products {
+	background-color: #cd4545;
+	color: #f3a333;
+}
+
+.icon-img {
+	width: 30%;
+}
+
+/*ontact Us*/
+#contact {
+	background-color: #f16821;
+	padding: 5%;
+}
+
+.form {
+	background-image: url("https://res.cloudinary.com/aroura/image/upload/c_scale,h_767,r_0/a_0/v1555665011/envelope_bcoww0.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #f3a333;
+	padding: 3% 8%;	
+}
+
+form h2{
+	text-align: center;
+	color: #f3a333;	
+}
+
+.btn {
+	background-color: #f3a333;
+	border: none;
+	border-radius: 1000px;
+	display: block;
+	margin: 8px auto 0;
+	width: 100px;
+}
+
+.add {
+	padding: 20% 9%;
+}
+
+/*Footer*/
+#footer {
+	background-color: #f3a333;
+	text-align: center;
+	padding: 30px 0;
+}
