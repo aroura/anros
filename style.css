@@ -65,16 +65,15 @@ h2 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
+	/*background-position: center;*/
 	color: #f3a333;	
 	text-align: center;
-	/*z-index: 1;*/
 }
 
 .box {
 	background-color: #fffe9a;	
 	opacity: .8;
 	padding: 8% 10%;
-	/*z-index: 0;*/
 }
 
 /*Products*/
@@ -94,16 +93,17 @@ h2 {
 }
 
 .form {
-	background-image: url("https://res.cloudinary.com/aroura/image/upload/c_scale,h_767,r_0/a_0/v1555665011/envelope_bcoww0.jpg");
+	background-image: url("https://res.cloudinary.com/aroura/image/upload/c_scale,w_980/v1555665011/envelope_bcoww0.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 	color: #f3a333;
-	padding: 3% 8%;	
+	padding: 10%;	
 }
 
 form h2{
 	text-align: center;
-	color: #f3a333;	
+	
 }
 
 .btn {
@@ -111,12 +111,33 @@ form h2{
 	border: none;
 	border-radius: 1000px;
 	display: block;
-	margin: 8px auto 0;
+	margin: 20px auto 0;
 	width: 100px;
 }
 
 .add {
-	padding: 20% 9%;
+	padding: 21% 9%;
+}
+
+.add p {
+	font-size: 1.2rem;
+}
+
+.media-icons {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}
+
+.media-icons i {
+	color: #f3a333;
+	font-size: 1.5rem;
+	padding-top: 20px;
+	padding-right: 50px;
+}
+
+.media-icons i:hover {
+	color: #cd4545;
 }
 
 /*Footer*/
