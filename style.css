@@ -126,7 +126,7 @@ form h2{
 .media-icons {
 	display: flex;
 	flex-wrap: nowrap;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 .media-icons i {
