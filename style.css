@@ -71,8 +71,7 @@ h2 {
 }
 
 .box {
-	background-color: #fffe9a;	
-	opacity: .8;
+	background-color: rgba(255, 254, 154, .8);
 	padding: 8% 10%;
 }
 
